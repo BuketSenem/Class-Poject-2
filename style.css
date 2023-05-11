@@ -1,0 +1,147 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-image: linear-gradient(0deg, #ecbc54  0%, #ccfc47 100%);
+    padding: 0.5rem;
+    display: block;
+}
+
+body{
+    font-family: "Open Sans", sans-serif;
+}
+
+header a img{
+    width: 100px;
+}
+
+section{
+    display: block;
+}
+
+header .sign-in a{
+    font-family:'Great Vibes', cursive;
+    color: #000000;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.7rem;
+    text-shadow: 0 0 3px #fffeaa, 0 0 5px #ffe77b;
+}
+
+header .sign-in{
+    float: right;
+    padding-top: 1rem;
+    padding-right: 2rem;
+}
+
+nav.sticky{
+    position: sticky;
+    top: 0rem;
+    padding: 2rem;
+    background-image: linear-gradient(0deg, #704f11 0%, #ecbc54 100%);
+    text-align: center;
+    z-index: 1;
+}
+
+nav.sticky a{
+    font-family:'Great Vibes', cursive;
+    text-decoration: none;
+    color: #000000;
+    font-weight: 600;
+    margin-right: 3rem;  
+    font-size: 1.9rem;  
+    text-shadow: 0 0 3px #fffeaa, 0 0 5px #ffe77b;
+}
+
+nav.banner{
+    position: relative;
+    width:100%;
+    height: 765px;
+}
+
+.banner img{
+    width:100%;
+    height:100%;
+    /* max-height: calc(100vh - 204px); */
+}
+
+.banner .banner-title{
+    position: absolute;
+    top: 30%;
+    left: 5%;
+}
+
+h1{
+    display: block;
+    font-size: 2.8em;
+    font-family: 'Kalam', cursive;
+    color: #ebfa64;
+    text-shadow: 0 0 3px #000000, 0 0 5px #ffe77b;
+    
+}
+
+h2{
+    display: block;
+    font-size: 2rem;
+    font-family: 'Kalam', cursive;
+    color: #000000;
+    text-shadow: 1px 2px 3px #dcff84;
+    text-shadow: 0 0 3px #000000, 0 0 5px #ffe77b;
+}
+
+h3{
+    display: block;
+    font-size: 1.8rem;
+    font-family: 'Kalam', cursive;
+    color: #000000;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-shadow: 0 0 3px #000000, 0 0 5px #ffe77b;
+}
+
+button{
+    display: block;
+    padding: 10px 15px;
+    color: #000000;
+    background-image: linear-gradient(0deg, #d1ff51 0%, #ece254 100%);
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 2px 2px 10px #e8ff67;
+}
+
+main{
+    margin: 0;
+    padding: 2rem;
+    text-align: justify;
+    background-color: #fff1a2;   
+    text-align: center;
+    font-family: 'Kalam', cursive;
+    font-weight: bold;
+
+}
+
+.whatsapp{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    font-size: 1.5rem;
+    width: 3rem;
+    height: 3rem;
+    justify-content: center;
+    background-color: #6cdb40;
+    color: #ffffff;
+    border-radius: 50%;
+    padding-top: 0.15rem;
+}
+
+.fa-brands{
+    font-weight: 450;
+}

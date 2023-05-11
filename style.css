@@ -34,7 +34,7 @@ header .sign-in a{
 header .sign-in{
     float: right;
     padding-top: 1rem;
-    padding-right: 2rem;
+    padding-right: 3.5rem;
 }
 
 nav.sticky{
@@ -103,6 +103,7 @@ h3{
 }
 
 button{
+    text-decoration: none;
     display: block;
     padding: 10px 15px;
     color: #000000;
@@ -119,11 +120,27 @@ main{
     margin: 0;
     padding: 2rem;
     text-align: justify;
+    font-size: 1.5rem;
     background-color: #fff1a2;   
     text-align: center;
     font-family: 'Kalam', cursive;
     font-weight: bold;
 
+}
+
+.studio{
+    background-color: #fff1a2;
+}
+
+.studio img{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cart{
+    display: inline;
+    /* position: fixed; */
 }
 
 .whatsapp{
